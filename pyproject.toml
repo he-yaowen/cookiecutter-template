@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "cookiecutter-template"
+version = "0.1.0"
+description = "A meta template for Cookiecutter that allows you to quickly generate templates."
+authors = ["HE Yaowen <he.yaowen@hotmail.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
