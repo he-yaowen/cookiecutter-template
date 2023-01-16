@@ -1,4 +1,16 @@
 {
     "template_name": "Template Name",
-    "template_slug": "{{ cookiecutter.template_name|slugify }}"
+    "template_slug": "{{ cookiecutter.template_name|slugify }}",
+    "author_name": "Your Name",
+    "author_email": "your.name@email.com",
+    "license_id": [
+        "Apache-2.0",
+        "BSD-3-Clause",
+        "GPL-3.0",
+        "MIT",
+        "MPL-2.0",
+        "None"
+    ],
+    "license_fullname": "{{ cookiecutter.author_name }}",
+    "license_year": "{% now 'utc', '%Y' %}"
 }
