@@ -63,6 +63,17 @@ files = [
 ]
 
 [[package]]
+name = "chance"
+version = "0.110"
+description = "Minimalist generator of random strings, numbers, etc."
+category = "dev"
+optional = false
+python-versions = "*"
+files = [
+    {file = "chance-0.110.tar.gz", hash = "sha256:b21944a73a7eacd3a4dfd5ba6f396de596ff9aaed0826a04d4d3bd9e9bafae63"},
+]
+
+[[package]]
 name = "chardet"
 version = "5.1.0"
 description = "Universal encoding detector for Python 3"
@@ -553,4 +564,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.7"
-content-hash = "c2bf31fdc06328ea394ba971b3994435a3f9887174a234315af698b93ff5bc46"
+content-hash = "b5324f6b5bd37c1c2e99fa1e1f2aed3a7045305795e1ffac94b5971b86dee6da"
