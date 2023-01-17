@@ -1,6 +1,7 @@
 {
     "template_name": "Template Name",
     "template_slug": "{{ cookiecutter.template_name|slugify }}",
+    "template_description": "A project template for Cookiecutter.",
     "author_name": "Your Name",
     "author_email": "your.name@email.com",
     "license_id": [
@@ -12,5 +13,6 @@
         "None"
     ],
     "license_fullname": "{{ cookiecutter.author_name }}",
-    "license_year": "{% now 'utc', '%Y' %}"
+    "license_year": "{% now 'utc', '%Y' %}",
+    "github_user": "{{ cookiecutter.author_name|slugify }}"
 }
